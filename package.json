@@ -1,0 +1,31 @@
+{
+  "name": "4-vanilla-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwolfm/vanilla-http"
+  },
+  "author": "dwolfm@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwolfm/vanilla-http/issues"
+  },
+  "homepage": "https://github.com/dwolfm/vanilla-http",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "chai-http": "^1.0.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-nodemon": "^0.4.0",
+    "grunt-simple-mocha": "^0.4.0",
+    "mocha": "^2.2.4"
+  }
+}
