@@ -4,7 +4,7 @@ var expect = chai.expect;
 
 chai.use(chaihttp);
 
-describe('sever.js', function(){
+describe('greet.js', function(){
 	describe('/greet', function(){
 		describe('get /greet/duncan', function(){
 			it('should return whatsup duncan', function(done){
@@ -17,7 +17,7 @@ describe('sever.js', function(){
 					});
 			});
 		});
-		describe('post /greet', function(){
+		describe('post /greet {name: "slug"}', function(){
 			it('should return whatsup slug', function(done){
 				chai.request('localhost:3000')
 					.post('/greet')
